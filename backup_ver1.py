@@ -1,8 +1,8 @@
 import os
 import time
 
-source = ['C:\\bac']
-target_dir = 'D:\\backup'
+source = ['C:\\pac']
+target_dir ='D:\\backup'
 target = target_dir + os.sep + time.strftime('%Y%m%d%H%M%S') + '.zip'
 
 if not os.path.exists(target_dir):
